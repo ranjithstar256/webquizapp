@@ -1,73 +1,98 @@
 {
   "questions": [
     {
-      "question": "Which Flutter widget is used for creating a form with input fields?",
+      "question": "Which widget is used to create a button in Flutter?",
+      "options": ["RaisedButton", "Button", "ClickButton", "ActionButton"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "What is a `StatelessWidget` in Flutter?",
+      "options": ["A widget that does not change", "A widget that manages state", "A widget for animations", "A widget for handling gestures"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "What is the purpose of the `Container` widget?",
+      "options": ["To hold other widgets", "To display text", "To create a list", "To handle user input"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "How do you specify the layout direction for widgets in Flutter?",
+      "options": ["Row and Column", "Vertical and Horizontal", "List and Grid", "Stack and Flow"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Which widget is used for a single line of text?",
+      "options": ["Text", "Label", "Paragraph", "Heading"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "What does the `setState` method do?",
+      "options": ["Updates the UI", "Creates a new widget", "Handles user input", "Manages animations"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Which widget is used to create a form in Flutter?",
       "options": ["Form", "InputForm", "FieldSet", "InputContainer"],
       "correctAnswer": 0
     },
     {
-      "question": "What is the primary purpose of the `State` class in Flutter?",
-      "options": ["To define widget layout", "To hold and manage widget state", "To style widgets", "To handle network requests"],
-      "correctAnswer": 1
-    },
-    {
-      "question": "Which widget in Flutter is used to display an image?",
-      "options": ["Image", "Picture", "Photo", "Graphic"],
+      "question": "What is the purpose of the `Scaffold` widget?",
+      "options": ["Provides a basic layout structure", "Creates a tab interface", "Manages animations", "Handles navigation"],
       "correctAnswer": 0
     },
     {
-      "question": "What does the `initState` method do in a Flutter widget?",
-      "options": ["Sets up the widget for display", "Initializes state when a widget is created", "Updates the UI", "Manages widget transitions"],
-      "correctAnswer": 1
-    },
-    {
-      "question": "Which widget is used to create a tabbed interface in Flutter?",
-      "options": ["TabBar", "TabController", "Tabs", "TabView"],
+      "question": "How do you navigate between screens in Flutter?",
+      "options": ["Using Navigator", "Using Router", "Using Pages", "Using Links"],
       "correctAnswer": 0
     },
     {
-      "question": "What does the `Future` class in Dart represent?",
-      "options": ["An asynchronous operation", "A synchronous computation", "A UI layout", "A widget's lifecycle"],
+      "question": "What is the function of the `AppBar` widget?",
+      "options": ["Displays a title at the top of the screen", "Handles user gestures", "Creates a footer", "Manages screen transitions"],
       "correctAnswer": 0
     },
     {
-      "question": "How do you handle user gestures in Flutter?",
-      "options": ["GestureDetector", "UserInputHandler", "TapRecognizer", "GestureHandler"],
+      "question": "Which widget is used for horizontal scrolling in Flutter?",
+      "options": ["ListView", "ScrollView", "GridView", "Column"],
       "correctAnswer": 0
     },
     {
-      "question": "Which widget is used for creating a vertical list of widgets in Flutter?",
-      "options": ["Column", "ListView", "GridView", "Stack"],
-      "correctAnswer": 1
-    },
-    {
-      "question": "What is the function of the `Scaffold` widget in Flutter?",
-      "options": ["To provide a basic material design layout structure", "To create custom animations", "To handle user input", "To manage app state"],
+      "question": "What is the purpose of the `Center` widget?",
+      "options": ["Aligns its child widget to the center", "Creates a border around its child", "Handles user gestures", "Manages state changes"],
       "correctAnswer": 0
     },
     {
-      "question": "Which method is used to trigger an animation in Flutter?",
-      "options": ["animateTo", "startAnimation", "triggerAnimation", "animate"],
-      "correctAnswer": 3
-    },
-    {
-      "question": "What is the purpose of the `MediaQuery` widget in Flutter?",
-      "options": ["To get information about the device's screen size and orientation", "To manage user permissions", "To handle navigation", "To define app themes"],
+      "question": "Which class is used to make HTTP requests in Flutter?",
+      "options": ["http", "HttpRequest", "NetworkRequest", "Request"],
       "correctAnswer": 0
     },
     {
-      "question": "How can you add a border to a widget in Flutter?",
-      "options": ["Border property", "Decoration property", "Shape property", "Outline property"],
-      "correctAnswer": 1
-    },
-    {
-      "question": "Which widget is used to align children widgets in Flutter?",
-      "options": ["Align", "Center", "Container", "Layout"],
+      "question": "What does `jsonDecode` do in Dart?",
+      "options": ["Converts a JSON string to a Dart object", "Encodes a Dart object to JSON", "Parses a URL", "Creates a new JSON file"],
       "correctAnswer": 0
     },
     {
-      "question": "What is the purpose of the `Stream` class in Dart?",
-      "options": ["To handle a sequence of asynchronous events", "To manage synchronous data", "To control widget state", "To manage navigation"],
+      "question": "Which widget is used to display a list of items in a grid format?",
+      "options": ["GridView", "ListView", "Column", "Row"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "What is the purpose of `ObjectBox`?",
+      "options": ["Local database for storing objects", "Network library", "UI component", "State management solution"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "What is the `TextField` widget used for?",
+      "options": ["To get user input", "To display static text", "To create a button", "To show an image"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "How do you add padding around a widget?",
+      "options": ["Using the Padding widget", "Using margin property", "Using Container widget", "Using Spacer widget"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "What is a `StatefulWidget`?",
+      "options": ["A widget that can change state", "A widget that displays static content", "A widget for navigation", "A widget for layout"],
       "correctAnswer": 0
     }
   ]
